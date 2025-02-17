@@ -1,0 +1,11 @@
+body{
+    background-image: url('https://elements-resized.envatousercontent.com/elements-cover-images/8acc4f2c-57c3-46bc-a688-a548fd6cbdbe?w=2038&cf_fit=scale-down&q=85&format=auto&s=f2f0318d68f2dce889a68de2e9fbcdd470a1b13efe685d7ec5665ec15ce26fc8');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255)
+    
+}
