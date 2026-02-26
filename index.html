@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of a Data Scientist and AI Engineer. Showcasing projects in Machine Learning, Artificial Intelligence, and Data Analytics.">
+    <title>Antonio Castillo Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="glow-cursor"></div>
+    <div class="noise-overlay"></div>
+
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span class="logo-text">AI.</span>Portfolio
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ph ph-list"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- HERO SECTION -->
+        <section class="home" id="home">
+            <div class="container home__container grid">
+                <div class="home__data hidden-element">
+                    <h3 class="home__subtitle">Data Scientist & AI Engineer</h3>
+                    <h1 class="home__title">
+                        Antonio <span class="gradient-text">Castillo</span>.
+                    </h1>
+                    <p class="home__description">
+                        Specializing in Machine Learning models, predictive analytics, and learning everything related
+                        to manage data.
+                    </p>
+                    <div class="home__buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore Projects <i class="ph ph-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            Contact Me
+                        </a>
+                    </div>
+                </div>
+                <div class="home__visual hidden-element">
+                    <div class="abstract-sphere">
+                        <img src="img/pep.jpeg" alt="Antonio Castillo" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT & SKILLS SECTION -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section__title hidden-element">About & <span class="gradient-text">Skills</span></h2>
+
+                <div class="about__container grid">
+                    <div class="about__data hidden-element">
+                        <p class="about__description">
+                            I am a passionate Data Scientist and AI Engineer dedicated to extracting meaningful insights
+                            from complex datasets and building intelligent predictive models. My expertise spans across
+                            machine learning, deep learning, and data engineering.
+                        </p>
+                        <a href="CV_Antonio_Castillo.pdf" download class="btn btn-secondary">
+                            Download Resume <i class="ph ph-download-simple"></i>
+                        </a>
+                    </div>
+
+                    <div class="skills__content hidden-element">
+                        <div class="skills__group">
+                            <h3 class="skills__title">AI & Machine Learning</h3>
+                            <div class="skills__list">
+                                <span class="skills__tag">PyTorch</span>
+                                <span class="skills__tag">TensorFlow</span>
+                                <span class="skills__tag">Scikit-Learn</span>
+                                <span class="skills__tag">NLP</span>
+                                <span class="skills__tag">Computer Vision</span>
+                            </div>
+                        </div>
+                        <div class="skills__group mt-1">
+                            <h3 class="skills__title">Data Engineering & Analytics</h3>
+                            <div class="skills__list">
+                                <span class="skills__tag">Python</span>
+                                <span class="skills__tag">SQL</span>
+                                <span class="skills__tag">Pandas</span>
+                                <span class="skills__tag">Spark</span>
+                                <span class="skills__tag">Kafka</span>
+                                <span class="skills__tag">HDFS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title hidden-element">Featured <span class="gradient-text">Projects</span></h2>
+
+                <div class="projects__container grid hidden-element">
+                    <!-- Project 1 -->
+                    <article class="project__card glass-panel">
+                        <div class="project__img-wrapper">
+                            <div class="project__img-placeholder">
+                                <i class="ph ph-robot"></i>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Predictive Maintenance AI</h3>
+                            <p class="project__description">Built an LSTM-based deep learning model to predict equipment
+                                failure by analyzing IoT sensor data in real-time.</p>
+                            <div class="project__tags">
+                                <span class="tag">PyTorch</span>
+                                <span class="tag">Time Series</span>
+                                <span class="tag">IoT</span>
+                            </div>
+                            <a href="#" class="project__link">View Repository <i class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project__card glass-panel">
+                        <div class="project__img-wrapper">
+                            <div class="project__img-placeholder">
+                                <i class="ph ph-chart-line-up"></i>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Customer Churn Analysis</h3>
+                            <p class="project__description">Developed an end-to-end data pipeline and a Random Forest
+                                classification model to identify at-risk customers with 92% accuracy.</p>
+                            <div class="project__tags">
+                                <span class="tag">Scikit-Learn</span>
+                                <span class="tag">SQL</span>
+                                <span class="tag">Pandas</span>
+                            </div>
+                            <a href="#" class="project__link">View Repository <i class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project__card glass-panel">
+                        <div class="project__img-wrapper">
+                            <div class="project__img-placeholder">
+                                <i class="ph ph-brain"></i>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h3 class="project__title">Document Q&A using RAG</h3>
+                            <p class="project__description">Implemented a Retrieval-Augmented Generation system using
+                                Large Language Models to answer complex questions from enterprise documents.</p>
+                            <div class="project__tags">
+                                <span class="tag">LLM</span>
+                                <span class="tag">LangChain</span>
+                                <span class="tag">Vector DB</span>
+                            </div>
+                            <a href="#" class="project__link">View Repository <i class="ph ph-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact section" id="contact">
+            <div class="container grid contact__container">
+                <div class="contact__content hidden-element">
+                    <h2 class="section__title">Let's <span class="gradient-text">Connect</span></h2>
+                    <p class="contact__description">
+                        Interested in collaborating on AI projects or have an open role for a Data Scientist? Feel free
+                        to reach out.
+                    </p>
+                    <a href="mailto:example@email.com" class="btn btn-primary">
+                        Send Email <i class="ph ph-paper-plane-right"></i>
+                    </a>
+                </div>
+                <div class="contact__socials hidden-element">
+                    <a href="#" class="social__link"><i class="ph ph-github-logo"></i> GitHub</a>
+                    <a href="#" class="social__link"><i class="ph ph-linkedin-logo"></i> LinkedIn</a>
+                    <a href="#" class="social__link"><i class="ph ph-twitter-logo"></i> Twitter</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <p class="footer__copy">&#169; 2026 AI Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="app.js"></script>
+</body>
+
+</html>
