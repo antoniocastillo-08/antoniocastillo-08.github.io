@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#121821"/>
+  <defs>
+    <pattern id="grid1" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1A222D" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#grid1)"/>
+  <g stroke="#3FB8AF" stroke-width="1.5" opacity="0.6">
+    <line x1="140" y1="180" x2="330" y2="120"/>
+    <line x1="140" y1="180" x2="300" y2="320"/>
+    <line x1="330" y1="120" x2="520" y2="200"/>
+    <line x1="300" y1="320" x2="520" y2="200"/>
+    <line x1="520" y1="200" x2="680" y2="140"/>
+    <line x1="520" y1="200" x2="660" y2="360"/>
+    <line x1="300" y1="320" x2="470" y2="440"/>
+    <line x1="470" y1="440" x2="660" y2="360"/>
+  </g>
+  <g fill="#F2A93B">
+    <circle cx="140" cy="180" r="9"/>
+    <circle cx="330" cy="120" r="6"/>
+    <circle cx="300" cy="320" r="7"/>
+  </g>
+  <g fill="#3FB8AF">
+    <circle cx="520" cy="200" r="10"/>
+    <circle cx="680" cy="140" r="6"/>
+    <circle cx="660" cy="360" r="7"/>
+    <circle cx="470" cy="440" r="6"/>
+  </g>
+</svg>

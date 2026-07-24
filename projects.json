@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Sistema de análisis de comportamiento de usuarios en YouTube",
+    "date": "2026-02",
+    "image": "",
+    "description": "Arquitectura Big Data que simula el comportamiento de más de 100.000 usuarios distribuidos en 5 países, generando eventos en tiempo real. Pipelines de streaming y batch con Kafka y Spark, almacenamiento distribuido con HDFS y motores NoSQL, y dashboards analíticos en Grafana y Kibana.",
+    "media": "",
+    "url": "https://github.com/antoniocastillo-08"
+  },
+  {
+    "name": "Sistema de visión artificial para análisis de civismo",
+    "date": "2026-01",
+    "image": "",
+    "description": "Modelo de detección de objetos basado en YOLO para identificar residuos en instalaciones educativas a partir de vídeo capturado por drones, calculando densidades por metro cuadrado y automatizando un proceso antes manual.",
+    "media": "",
+    "url": "https://github.com/antoniocastillo-08"
+  },
+  {
+    "name": "Monitorización agrícola mediante IoT y analítica de datos",
+    "date": "2025-05",
+    "image": "",
+    "description": "Sistema de monitorización agrícola con sensores IoT, almacenamiento de series temporales en InfluxDB y dashboards en Grafana para el análisis operativo centralizado de variables de campo.",
+    "media": "",
+    "url": ""
+  },
+  {
+    "name": "Clasificación automática de insectos mediante visión artificial",
+    "date": "2025-04",
+    "image": "",
+    "description": "Modelo de clasificación basado en técnicas de Computer Vision para automatizar la identificación de insectos capturados por una cámara clasificadora, con pipelines de procesamiento de imágenes en Python.",
+    "media": "",
+    "url": ""
+  }
+]
