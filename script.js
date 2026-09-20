@@ -55,7 +55,7 @@ function buildProjectCard(project) {
 
   const links = [];
   if (project.url && project.url.trim() !== "") {
-    links.push(`<a href="${escapeHtml(project.url)}" target="_blank" rel="noopener">Ver proyecto →</a>`);
+    links.push(`<a href="${escapeHtml(project.url)}" target="_blank" rel="noopener">Ver en GitHub →</a>`);
   }
   if (project.media && project.media.trim() !== "") {
     links.push(`<a href="${escapeHtml(project.media)}" target="_blank" rel="noopener">Ver demo</a>`);
